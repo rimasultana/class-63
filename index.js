@@ -5,8 +5,10 @@ const person = {
 
 };
 
+let txt = " ";
+
 for(let x in person) {
-    txt += person[x];
+    txt += person[x]+ " ";
 }
 
 console.log(txt);
