@@ -1,11 +1,11 @@
 const person = {
-    firstName: "Rima",
-    lastName: "sultana",
-    age: 20,
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue"
+  };
 
-};
-
-person.person2 = "years old";
+delete person.age;
 
 
 console.log(person);
