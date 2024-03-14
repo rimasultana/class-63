@@ -5,10 +5,7 @@ const person = {
 
 };
 
-let txt = " ";
+person.person2 = "years old";
 
-for(let x in person) {
-    txt += person[x]+ " ";
-}
 
-console.log(txt);
+console.log(person);
